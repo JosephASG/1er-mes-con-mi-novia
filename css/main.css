@@ -95,6 +95,12 @@ section {
     }
 }
 
+@media (max-width: 992px) {
+    .container-main .content-gift h2 {
+        margin: 0 30px 0 30px;
+    }
+}
+
 .section-text {
     position: absolute;
     display: none;
@@ -145,6 +151,13 @@ section {
     z-index: 1;
 }
 
+@media (max-width: 992px) {
+    .container-secondary .content-text h1 {
+        font-size: 2rem;
+        margin: 0 30px 0 30px;
+    }
+}
+
 /* Goto Next */
 
 .goto-next {
@@ -179,12 +192,6 @@ section {
     width: 2em;
     z-index: 1000;
 }
-
-/*@media (max-width: 992px) {
-    .goto-next {
-        display: none;
-    }
-}*/
 
 .content {
     width: 100%;
@@ -282,6 +289,13 @@ section {
     position: absolute;
 }
 
+@media (max-width: 992px) {
+    .text-sky h2 {
+        text-align: center;
+        margin: 0 30px 0 30px;
+    }
+}
+
 svg {
     display: block;
     width: 100%;
@@ -297,6 +311,12 @@ svg {
     width: 100px;
     top: 0;
     z-index: 0;
+}
+
+@media (max-width: 992px) {
+    .scrollElement {
+        height: 500px;
+    }
 }
 
 .section-parallax-two {
@@ -337,4 +357,47 @@ svg {
 
 .content-text {
     font-size: 15rem;
+}
+
+.section-parallax-two .content-text-size {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 100%;
+    text-align: center;
+    flex-direction: column;
+}
+
+.section-parallax-two .content-text-size h2 {
+    position: relative;
+    color: #fff;
+}
+
+.section-parallax-two .content-text-size h5 {
+    color: #fff;
+}
+
+.content-text-size {
+    font-size: 15rem;
+}
+
+@media (max-width: 992px) {
+    .section-parallax-two .content-text h2 {
+        font-size: 1.5rem;
+        margin: 0 30px 0 30px;
+    }
+
+    .content-text-size h2 {
+        font-size: 4.5rem !important;
+    }
+
+    .section-parallax-two .content-text-size {
+        top: 70%;
+    }
+
+    .section-parallax-two .content-text-size h5 {
+        margin: 0 30px 0 30px;
+    }
 }
